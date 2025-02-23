@@ -1,0 +1,80 @@
+https://github.com/fullstackclubeducacao/fullstackweek-donalds
+
+- prisma
+
+  - npx prisma init
+
+  - npx prisma migrate dev
+
+  - configurar prisma no package para o seed
+
+  - rodar npx prisma db seed
+
+- para rodar arquivo ts para o seed
+
+  - dependencia npm install -D ts-node@10.9.2
+
+ add package 
+
+ prisma:{
+    "seed": "ts-node ./prisma/seed.ts"
+ }
+
+ rodar npx prisma db seed
+
+
+ "postinstall": "prisma generate" dentro de scripts em package json
+
+
+ ============================================
+
+ visual instalar shacn
+
+ npx shadcn@2.3.0 init
+
+ botão
+
+ npm shadcn@2.3.0 add button
+
+
+ complete
+
+ 4EZIT
+
+
+
+
+ ---------------------
+
+
+ LINKS DO PROJETO LIBERADOS 🔓
+
+Aqui no figma você terá acesso ao design da interface que vamos criar! ✅
+
+➡️https://www.figma.com/design/i77rEtLPNV1vksk94wJCFv/FSW-Donald%E2%80%99s---Live?node-id=440-199&t=UrImDanxYJa17LbX-1
+
+Não esquece de entrar na comunidade do Discord!
+
+https://discord.gg/PjNhkSaV
+
+Para acessar o repositório de códigos, clica aqui!
+
+https://github.com/fullstackclubeducacao/fullstackweek-donalds
+
+E se você quiser ter acesso estendido às aulas, participar de uma mentoria Ao Vivo e ter acesso as aulas de LinkedIn, GitHub e Currículo Campeão, ADQUIRA SEU INGRESSO GOLD!
+
+https://go.fullstackclub.com.br/pay/ingresso-gold-fsw-70
+
+Já clica nos links e deixa salvo!
+
+
+
+mais chadcns
+
+npx shadcn@2.3.0 add scroll-area
+
+
+Prisma:
+
+ - para migrate use: npx prisma migrate dev
+ - para abrir seu host studio use: npx prisma studio
