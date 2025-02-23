@@ -16,11 +16,11 @@ import {
 } from "@/components/ui/drawer";
 import { useForm } from "react-hook-form";
 import { isValidCpf } from "../helpers/cpf";
-import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { useParams, useSearchParams } from "next/navigation";
 import { ConsumptionMethod } from "@prisma/client";
-import { startTransition, useContext, useTransition } from "react";
+import { useContext, useTransition } from "react";
 import { createOrder } from "../actions/create-order";
 import { CartContext } from "../../contexts/cart";
 import { toast } from "sonner";
